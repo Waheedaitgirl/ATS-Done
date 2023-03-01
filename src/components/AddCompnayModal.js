@@ -16,7 +16,7 @@ import { width, wp } from '../constants/sacling';
       country:""
   }
  
-  function AddCompnayModal() {
+ function AddCompnayModal() {
       const [compayformdata, dispatch] = useReducer(reducer , initialState)
       const [status_modal_visible , setStatusModalVisible] = useState(false)
       const [status,  setStatus] = useState(company_status_data)
